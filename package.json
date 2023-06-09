@@ -1,0 +1,18 @@
+{
+  "name": "@mekstuff/mek-templates-cli",
+  "version": "1.0.0",
+  "author": "mekstuff <mekstuff@mekstuff.com> (https://github.com/mekstuff)",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "mektemplates": "build/index.js",
+    "mt": "build/index.js"
+  },
+  "dependencies": {
+    "commander": "^10.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "typescript": "^5.1.3"
+  }
+}
