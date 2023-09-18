@@ -4,6 +4,9 @@
   "author": "mekstuff <mekstuff@mekstuff.com> (https://github.com/mekstuff)",
   "license": "MIT",
   "type": "module",
+  "scripts": {
+    "prepack": "yarn tsc"
+  },
   "bin": {
     "mektemplates": "build/index.js",
     "mt": "build/index.js"
